@@ -1,0 +1,57 @@
+.pad {
+  padding: 25px;
+}
+
+.header {
+  background-color: lightblue;
+  color: black;
+  height: 100px;
+  font-size: 36pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text {
+  background-color: steelblue;
+  color: white;
+  font-size: 17pt;
+  text-align: center;
+  height: 36px;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.main-text {
+  width: 60%;
+  float: left;
+  font-size: 14pt;
+}
+
+.sm-divs {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 25%;
+  float: left;
+  text-align: center;
+  border: 4px solid lightsteelblue;
+  background-color: white;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
